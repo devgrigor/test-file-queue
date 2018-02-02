@@ -1,0 +1,16 @@
+<div class="row">
+
+	<div class="col-md-4">
+		<select class="form-control" ng-model="$ctrl.day" 
+			ng-change="$ctrl.updateDate()" ng-options="day for day in $ctrl.days"></select>
+	</div>
+
+	<div class="col-md-4">
+		<select class="form-control"  ng-model="$ctrl.month" 
+			ng-change="$ctrl.updateDate()" ng-options="monthName for monthName in $ctrl.months"></select>
+	</div>
+
+	<div class="col-md-4">
+		<input type="number" class="form-control" ng-change="$ctrl.updateDate()" ng-model="$ctrl.year"/>
+	</div>		
+</div>

@@ -1,0 +1,11 @@
+node_modules
+public
+.tmp
+.idea
+client/xDoc
+dist
+client/assets/images/upload
+/server/config/local.env.js
+npm-debug.log
+coverage
+dump

@@ -1,0 +1,23 @@
+<h3>Task 3</h3>
+<div class="form-group row">
+	<div class="col-md-4">
+		<label>Date in timestamp:</label> 
+
+		<input class="form-control" ng-model="$ctrl.date" />
+	</div>
+
+</div>
+<br>
+<date-preview ng-model='$ctrl.date'></date-preview>
+<br>
+
+<h3>Task 4</h3>
+<div class="form-group">
+	<button class="btn btn-primary" ng-click="$ctrl.createFilesRequest('pdf')">Send pdf</button>
+
+	<button class="btn btn-success" ng-click="$ctrl.createFilesRequest('html')">Send html</button>
+</div>
+
+<h3>Task 5</h3>
+
+<text-edit></text-edit>

@@ -1,0 +1,26 @@
+<div class="form-group">
+	<label>Enter text to make changes to.</label>
+	<textarea ng-model="$ctrl.string" class="form-control"></textarea>
+	<br>
+	<div class="edits row">
+		<div class="col-md-4" class="form-control">
+			<label>Edit type</label>
+			<select ng-model="$ctrl.editType" class="form-control">
+				<option>move</option>
+				<option>insert</option>
+				<option>delete</option>
+			</select>
+			<br>
+			<label>Edit value</label>
+			<input class="form-control" ng-model="$ctrl.operation[$ctrl.editType]" />
+			<br>
+			<button class="btn btn-primary pull-right" ng-click="$ctrl.addEdit()">Add</button>
+		</div>
+
+		<div class="col-md-4" ng-if="$ctrl.edits.length">
+			<div ng-repeat="edit in $ctrl.edits"> {{edit}}</div>
+
+			<button class="btn btn-success pull-left" ng-click="$ctrl.makeEdits()">Apply</button>
+		</div>
+	</div>
+</div>

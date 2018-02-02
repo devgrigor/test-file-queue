@@ -1,0 +1,6 @@
+There are two projects I want to mention.
+First I want to talk about AppraisalScope, biggest project I was involved in. I was part of development team, that was building second version
+using Laravel on backend and AngularJS in front end. It's a complicated project , goal of which was working with financial documents.
+I'm not sure that I worked with big commercial projects with node, but lately I finished developing Retweeting platform, that is working with NodeJS 
+in backend and Angular 4 on front end. It is a platform for ordering tweets, but instead of casual payment systems it is using cryptocurrency 
+called Etherium. I've developed payment system using Web3JS library on backend.

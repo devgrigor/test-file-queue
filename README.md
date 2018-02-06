@@ -7,7 +7,7 @@ This project was generated with the [Angular Full-Stack Generator](https://githu
 ### Prerequisites
 
 - [Git](https://git-scm.com/)
-- [Node.js and npm](nodejs.org) Node ^4.2.3, npm ^2.14.7
+- [Node.js and npm](nodejs.org) Node ^6.10, npm ^3.4
 
 ### Developing
 
